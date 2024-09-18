@@ -8,8 +8,5 @@ module m_main (
 
     reg [31:0] r_cnt = 0;
     always @(posedge w_clk) r_cnt <= r_cnt + 1;
-    assign w_led[0] = r_cnt[22];
-    assign w_led[1] = r_cnt[23];
-    assign w_led[2] = r_cnt[24];
-    assign w_led[3] = r_cnt[25];    
+    assign w_led = r_cnt[25:22];  
 endmodule
