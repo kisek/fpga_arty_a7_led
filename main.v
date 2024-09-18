@@ -1,4 +1,4 @@
-** main.v for Arty A7-35T (xc7a35ticsg324-1L)          ArchLab, Institute of Science Tokyo **/
+/** main.v for Arty A7-35T (xc7a35ticsg324-1L)          ArchLab, Institute of Science Tokyo **/
 /*********************************************************************************************/
 `default_nettype none
 
